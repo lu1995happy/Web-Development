@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.18.3",
     "clarifai": "^2.9.0",
     "express": "^4.16.4",
     "react": "^16.6.3",
@@ -13,7 +14,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "website": "react-scripts start",
+    "start": "nodemon ./src/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
