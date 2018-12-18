@@ -26,8 +26,6 @@ const particlesOptions = {
   }
 }
 
-// Clarifai.FACE_DETECT_MODEL
-
 class App extends Component {
   constructor() {
     super();
